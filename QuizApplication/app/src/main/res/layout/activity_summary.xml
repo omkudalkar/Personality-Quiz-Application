@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HEADER COMMENT -
+AUTHOR: Om Kudalkar
+DESCRIPTION: This is the XML file for the summary page/activity. Here, we specify the
+layout of the page.
+-->
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:textColor="@color/title_color"
+        android:gravity="center"
+        android:textSize="52dp"
+        android:fontFamily="@font/title_font"
+        android:text="@string/summary_page_title"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="15dp"
+
+        android:textStyle="bold"
+        android:textColor="@color/button_color"
+        android:textSize="30dp"
+        android:fontFamily="@font/raleway"
+
+
+        android:text="@string/your_temp"
+        />
+
+    <!-- to be filled-->
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/temperament_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="@font/quicksand"
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+
+        android:textColor="@color/button_color"
+        android:textSize="30dp"
+        android:fontFamily="@font/raleway"
+        android:text="@string/temp_description"
+        />
+
+    <!-- to be filled-->
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/temperament_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="@font/quicksand"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"
+
+        android:textColor="@color/button_color"
+        android:textSize="30dp"
+        android:fontFamily="@font/raleway"
+        android:text="@string/temp_scores"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/choleric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choleric"
+                android:textSize="20dp"
+                android:fontFamily="@font/quicksand"
+                />
+
+            <TextView
+
+                android:id="@+id/choleric_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="4dp"
+                android:fontFamily="@font/quicksand"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sanguine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sanguine"
+                android:textSize="20dp"
+                android:fontFamily="@font/quicksand"
+                />
+
+            <TextView
+
+                android:id="@+id/sang_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/quicksand"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/melancholic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/melancholic"
+                android:textSize="20dp"
+                android:fontFamily="@font/quicksand"
+                />
+            <TextView
+
+                android:id="@+id/melancholic_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/quicksand"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/phlegmatic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phlegmatic"
+                android:textSize="20dp"
+                android:fontFamily="@font/quicksand"
+                />
+
+            <TextView
+                android:textSize="20dp"
+                android:fontFamily="@font/quicksand"
+                android:id="@+id/phelg_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

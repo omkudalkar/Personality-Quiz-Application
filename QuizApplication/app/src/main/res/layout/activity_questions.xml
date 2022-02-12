@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HEADER COMMENT -
+AUTHOR: Om Kudalkar
+DESCRIPTION: This is the XML file for the questions page/activity. Here, we specify the
+layout of the page.
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10dp"
+
+        android:layout_marginBottom="5dp"
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:fontFamily="@font/raleway"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="25dp" android:buttonTint="@color/button_color">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/rad_butt_1"
+            android:onClick="add_four"
+            android:fontFamily="@font/quicksand"
+            android:textSize="20dp"
+
+
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/rad_butt_2"
+            android:onClick="add_three"
+            android:fontFamily="@font/quicksand"
+            android:textSize="20dp"
+
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/rad_butt_3"
+            android:onClick="add_two"
+            android:fontFamily="@font/quicksand"
+            android:textSize="20dp"
+
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/rad_butt_4"
+            android:onClick="add_one"
+            android:fontFamily="@font/quicksand"
+            android:textSize="20dp"
+
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/rad_butt_5"
+            android:onClick="add_zero"
+            android:fontFamily="@font/quicksand"
+            android:textSize="20dp"
+
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_color"
+        android:layout_marginTop="15dp"
+        android:text="@string/next_q_butt"
+        android:onClick="nextQuestionButton"
+        android:textColor="@color/black"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>

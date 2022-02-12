@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- HEADER COMMENT -
+AUTHOR: Om Kudalkar
+DESCRIPTION: This is the XML file for the Main page/activity. Here, we specify the
+layout of the page.
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:textColor="@color/title_color"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:fontFamily="@font/title_font"
+        android:text="@string/title"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+
+        android:text="@string/welcome"
+        android:textColor="@color/welcome_color"
+
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="420dp"
+        android:layout_height="330dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/app_logo_quizzes"
+
+
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_color"
+        android:layout_marginTop="15dp"
+        android:text="@string/button_text"
+        android:onClick="dueDatesButton"
+        android:textColor="@color/black"
+        />
+
+
+
+</LinearLayout>

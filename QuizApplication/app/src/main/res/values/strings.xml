@@ -1,0 +1,77 @@
+<resources>
+    <!-- HEADER COMMENT -
+AUTHOR: Om Kudalkar
+DESCRIPTION: This is the XML file for the strings used in the app.
+-->
+
+    <string name="app_name">Four Temperaments Quiz</string>
+    <string name="title">Four Temperaments Quiz</string>
+    <string name="welcome">Welcome to the "Four Temperaments Quiz". Take the quiz to determine your temperament.</string>
+    <string name="button_text">Take Quiz</string>
+    <string name="summary_title">Summary</string>
+    <string name="questions_title">Questions</string>
+    <string name="tie_message">Even though you scored the same in more than one category, your dominant temperament is </string>
+
+    <string name="rad_butt_1">Strongly Agree</string>
+    <string name="rad_butt_2">Partially Agree</string>
+    <string name="rad_butt_3">Neutral</string>
+    <string name="rad_butt_4">Partially Disagree</string>
+    <string name="rad_butt_5">Strongly Disagree</string>
+    <string name="next_q_butt">Next Question</string>
+
+    <string name="summary_page_title">Quiz Summary</string>
+    <string name="your_temp">Your Temperament</string>
+    <string name="temp_description">Temperament Description</string>
+    <string name="temp_scores">Temperament Scores</string>
+    <string name="choleric">Choleric :  </string>
+    <string name="sanguine">Sanguine :  </string>
+    <string name="melancholic">Melancholic :  </string>
+    <string name="phlegmatic">Phlegmatic :  </string>
+
+    <string name="choleric_description">Your temperament is choleric.
+        The choleric temperament is fundamentally ambitious and leader-like. They
+        have a lot of aggression, energy, and/or passion, and try to instill it in
+        others. They can dominate people of other temperaments, especially
+        phlegmatic types. Many great charismatic military and political
+        figures were choleric. They like to be in charge of everything. However,
+        cholerics also tend to be either highly disorganized or highly organized.
+        They do not have in-between setups, only one extreme to another. As well as
+        being leader-like and assertive, cholerics also fall into deep and sudden
+        depression.Essentially, they are very much prone to mood swings.</string>
+
+    <string name="sanguine_description">Your temperament is sanguine. The sanguine
+        temperament is fundamentally spontaneous and pleasure-seeking; sanguine
+        people are sociable and charismatic. They tend to enjoy social gatherings,
+        making new friends and tend to be boisterous. They are usually quite
+        creative and often daydream. However, some alone time is crucial for
+        those of this temperament. Sanguine can also mean sensitive, compassionate
+        and thoughtful. Sanguine personalities generally struggle with following
+        tasks all the way through, are chronically late, and tend to be forgetful
+        and sometimes a little sarcastic. Often, when they pursue a new hobby, they
+        lose interest as soon as it ceases to be engaging or fun. They are very
+        much people persons. They are talkative and not shy. Sanguines generally
+        have an almost shameless nature, certain that what they are doing is right.
+        They have no lack of confidence.</string>
+
+    <string name="melancholic_description">Your temperament is melancholic.
+        The melancholic temperament is fundamentally introverted and thoughtful.
+        Melancholic people often were perceived as very (or overly) pondering and
+        considerate, getting rather worried when they could not be on time for events.
+        Melancholics can be highly creative in activities such as poetry and art - and
+        can become preoccupied with the tragedy and cruelty in the world. Often they are
+        perfectionists. They are self-reliant and independent; one negative part of
+        being a melancholic is that they can get so involved in what they are doing
+        they forget to think of others.</string>
+
+    <string name="phleg_description">Your temperament is phlegmatic.
+        The phlegmatic temperament is fundamentally relaxed and quiet,
+        ranging from warmly attentive to lazily sluggish. Phlegmatics
+        tend to be content with themselves and are kind. They are accepting
+        and affectionate. They may be receptive and shy and often prefer
+        stability to uncertainty and change. They are consistent, relaxed, calm,
+        rational, curious, and observant, qualities that make them good
+        administrators. They can also be passive-aggressive.</string>
+
+
+
+</resources>
